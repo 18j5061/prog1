@@ -1,0 +1,68 @@
+
+
+#0203
+print("Hello, World !")
+print("Hello, World !\n")
+
+#0205
+print("H\nello, world !")
+print("Hello,\nWorld !\n")
+
+#0206
+print("H\ne\nl\nl\no\n")
+
+#2010
+hogehoge("Hello, World !\n")
+hogehoge("Hello, World !\n")
+
+#2013
+print("Hello, World !")
+print("Hello, World !")
+print("Hello, World !")
+
+#0214
+print("1")
+print("2")
+print("3")
+
+#0216
+print("Hello, \t World !")
+
+#0217
+print("1\t2\t3")
+print("4\t5\t6")
+print("7\t8\t9")
+
+#0218
+print("Hello, \n World !")
+
+#0219
+print("1\t2\t3\n4\t5\n6")
+
+#0220
+print("\"Hello")
+
+#0221
+print("\"Hello\"")
+
+#0222
+print("\\Hello")
+
+#0223
+print("\\Hello\\")
+
+#0224
+print("\\\"Hello\\\"")
+
+#0225
+print("\\\\\\\\")
+
+#0226
+
+#0229
+print("\\/")
+print("\/")
+print("\\"+"/")
+
+#作成問題
+print("\t\t \t\t \t 1\n\t \t\t\t 1 \t \t1 \n\t\t\t 1 \t\t\t 2 \t \t1\n\t\t1 \t  \t 3\t \t3 \t \t 1\n\t1\t\t4\t\t6\t\t4\t\t1\n1\t\t5\t\t10\t\t10\t\t5\t\t1")
