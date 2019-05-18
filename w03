@@ -55,6 +55,90 @@ for x in range(10):
 #0313
 for x in range(99):
     print(x+1, end=" ")
+    
+#0314
+for x in range(91):
+    print(x+10, end=" ")
+
+#0315
+for x in range(21):
+    print(x*5, end=" ")
+
+#0316
+for x in range(11):
+    print(x*10, end=" ")
+
+#0317
+for x in range(12):
+    print(x*10, end=" ")
+
+#0318
+for x in range(11):
+    print(x*5, end=" ")
+
+#0319
+for x in range(11):
+    print(10-x, end=" ")
+
+#0320
+for x in range(21):
+    print(10-x, end=" ")
+
+#0321
+for x in range(101):
+    print(100-x, end=" ")
+
+#0322
+for x in range(201):
+    print(100-x, end=" ")
+
+#0323
+for x in range(11):
+    print(x**2, end=" ")
+
+#0324
+for x in range(100):
+    print(x%5, end=" ")
+
+#0325
+for x in range(100):
+    print(x%2, end=" ")
+
+#0326
+#for x in range(100):
+#    print(x%2, end=" ")
+
+#0327
+for x in range(1000, 1015):
+    print(x, end=" ")
+
+#0328
+for x in range(1000, 1101):
+    print(x, end=" ")
+
+#0329
+for x in range(0, 100):
+    print(x, end=" ")
+
+#0330
+for x in range(-10, 11):
+    print(x, end=" ")
+
+#0331
+for x in range(1000, 1015, 2):
+    print(x, end=" ")
+
+#0332
+for x in range(1000, 1101, 10):
+    print(x, end=" ")
+
+#0333
+for x in range(0, 101, 10):
+    print(x, end=" ")
+
+#0334
+for x in range(0, 11, 1):
+    print(10-x, end=" ")
 
 
 #問題
