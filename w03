@@ -1,0 +1,74 @@
+#0301
+for x in range(100):
+    print("Hello")
+
+#0302
+for x in range(3):
+    print("Hello")
+
+#0303
+for x in range(3):
+    print("Hello World")
+
+#0304
+for x in range(3):
+    print("Hello")
+    print("World")
+
+#0305
+for x in range(3):
+    print("Hello")
+for y in range(3):
+    print("World")
+
+#0306
+for x in range(3):
+    print("Hello")
+    print("World")
+for x in range(3):
+    print("Hello World")
+
+#0307
+for x in range(10):
+    print("x")
+
+#0308
+for x in range(10):
+    print(x)
+
+#0309
+for x in range(100):
+    print(x)
+
+#0310
+for x in range(100):
+    print(x, end=" ")
+
+#0311
+for x in range(201):
+    print(x, end=" ")
+
+#0312
+for x in range(10):
+    print(x+3, end=" ")
+
+#0313
+for x in range(99):
+    print(x+1, end=" ")
+
+
+#問題
+for x in range(2):
+   for y in range(5):
+       print("F",end=" ")
+   for z in range(5):
+       print("F",end=" ")
+
+for x in range(1,6):
+    for y in range(5-x):
+        print(" ",end="")
+    for z in range(2*x-1):
+        print("+",end="")
+    print("")
+       
+
