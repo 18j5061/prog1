@@ -105,8 +105,8 @@ for x in range(100):
     print(x%2, end=" ")
 
 #0326
-#for x in range(100):
-#    print(x%2, end=" ")
+for x in range(100):
+    print((x%2)*2+2, end=" ")
 
 #0327
 for x in range(1000, 1015):
@@ -139,6 +139,88 @@ for x in range(0, 101, 10):
 #0334
 for x in range(0, 11, 1):
     print(10-x, end=" ")
+    
+#0335
+for x in range(1, 10):
+    print(x, end=" ")
+print()
+for x in range(1, 10):
+    print(x*2, end=" ")
+print()
+for x in range(1, 10):
+    print(x*3, end=" ")
+print()
+for x in range(1, 10):
+    print(x*4, end=" ")
+print()
+for x in range(1, 10):
+    print(x*5, end=" ")
+print()
+for x in range(1, 10):
+    print(x*6, end=" ")
+print()
+for x in range(1, 10):
+    print(x*7, end=" ")
+print()
+for x in range(1, 10):
+    print(x*8, end=" ")
+print()
+for x in range(1, 10):
+    print(x*9, end=" ")
+print()   
+
+#0336
+for x in range(1, 10):
+    print(x, end="\t")
+print()
+for x in range(1, 10):
+    print(x*2, end="\t")
+print()
+for x in range(1, 10):
+    print(x*3, end="\t")
+print()
+for x in range(1, 10):
+    print(x*4, end="\t")
+print()
+for x in range(1, 10):
+    print(x*5, end="\t")
+print()
+for x in range(1, 10):
+    print(x*6, end="\t")
+print()
+for x in range(1, 10):
+    print(x*7, end="\t")
+print()
+for x in range(1, 10):
+    print(x*8, end="\t")
+print()
+for x in range(1, 10):
+    print(x*9, end="\t")
+print()
+
+for x in range(1, 10):
+    for y in range(1, 10):
+        print(x*y, end="\t")
+    print()
+    
+#0338
+
+    
+#0339
+for x in range(30):
+    print(x//2, end=" ")
+
+#0340
+for x in range(30):
+    print((x//2)%2, end=" ")
+
+#0341
+for x in range(30):
+    print((x//2)%3, end=" ")
+
+#0342
+for x in range(30):
+    print(x//5%3, end=" ")
 
 
 #問題
