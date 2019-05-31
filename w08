@@ -1,0 +1,55 @@
+#0801
+a = 66
+b = 88
+r = (a + b) / 2.0
+print("average is", r)
+
+#0802
+def ave_2():
+    a = 66
+    b = 88
+    r = (a + b) / 2.0
+    print("average is", r)
+ave_2()
+
+#0803
+def ave_2():
+    a = 66
+    b = 88
+    r = (a + b) / 2.0
+    return r
+r = ave_2()
+print("average is", r)
+
+#0804
+def ave_2(a, b):
+    r = (a + b) / 2.0
+    return r
+r = ave_2(66, 88)
+print("average is", r)
+
+#0805
+def ave_4(a, b, c, d):
+    r = (a + b + c + d) / 4.0
+    return r
+r = ave_4(1, 2, 3, 4)
+print("average is", r)
+
+#0806
+a = [1, 2, 3, 4]
+print(a[0] ,end=" ")
+print(a[1] ,end=" ")
+print(a[2] ,end=" ")
+print(a[3] ,end=" ")
+
+#0807
+a = [1, 2, 3, 4]
+for x in range(4):
+    print(a[x], end=" ")
+
+#0808
+a = [1, 2, 3, 4]
+for x in range(len(a)):
+    print(a[x], end=" ")
+
+#0809
