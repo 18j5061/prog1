@@ -167,6 +167,74 @@ for x in range(7):
     b = c
     c = a + b
     print(c, end=" ")
+
+#0420
+a = 66
+b = 99
+print(a, b)
+c = a
+a = b
+b = c
+print(a, b)
+
+#0421
+a = 66
+b = 99
+for x in range(5):
+    print(a, b)
+    c = a
+    a = b
+    b = c
+
+#0422
+print("[ Chapter 1 ]")
+print("[ Chapter 2 ]")
+print("[ Chapter 3 ]")
+print("[ Chapter 4 ]")
+print("[ Chapter 5 ]")
+print("[ Chapter 6 ]")
+print("[ Chapter 7 ]")
+print("[ Chapter 8 ]")
+print("[ Chapter 9 ]")
+print("[ Chapter 10 ]")
+
+#0423
+for x in range(1, 11):
+    print("[ Chapter", x, "]")
+
+#0424
+for x in range(1, 11):
+    a = "Section"
+    print("[", a, x, "]")
+
+#0425
+a = 9
+b = 10
+c = 17
+l = a + b + c
+p = l / 2
+S = (p * (p - a) * (p - b) * (p - c))**1/2
+print("S is", S)
+
+#0426
+a = 7
+b = 15
+c = 20
+l = a + b + c
+p = l / 2
+S = (p * (p - a) * (p - b) * (p - c))**1/2
+print("S is", S)
+
+#0427
+a = 6
+b = 25
+c = 29
+l = a + b + c
+p = l / 2
+S = (p * (p - a) * (p - b) * (p - c))**1/2
+print("S is", S)
+
+#0428
     
 #問題1
 a=0
