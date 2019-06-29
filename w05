@@ -62,7 +62,137 @@ for x  in range(1, 10):
 print()
 
 #0510
+for y in range(2, 5):
+    for x in range(1, 10):
+        print(x * y, end=" ")
+    print()
 
+#0511
+for y in range(1, 10):
+    for x in range(1, 10):
+        print(x * y, end=" ")
+    print()
+
+#0512
+for x in range(9):
+    print(x + 1, end=" ")
+print()
+
+#0513
+for x in range(9):
+    print(x + 1, end=" ")
+print()
+for x in range(9):
+    print((x + 1) * 2, end=" ")
+print()
+for x in range(9):
+    print((x + 1) * 3, end=" ")
+print()
+
+#0514
+for y in range(3):
+    for x in range(9):
+        print((x + 1) * (y + 1), end=" ")
+    print()
+
+#0515
+for y in range(9):
+    for x in range(9):
+        print((x + 1) * (y + 1), end=" ")
+    print()
+
+#0516
+for x in range(3):
+    print("*", end=" ")
+
+#0517
+for x in range(3):
+    print("*", end=" ")
+print()
+for x in range(4):
+    print("*", end=" ")
+print()
+for x in range(5):
+    print("*", end=" ")
+
+#0518
+for y in range(3, 6):
+    for x in range(y):
+        print("*", end=" ")
+    print()
+
+#0519
+for y in range(1, 6):
+    for x in range(y):
+        print("*", end=" ")
+    print()
+
+#0520
+for x in range(1):
+    print("*", end=" ")
+print()
+for x in range(2):
+    print("*", end=" ")
+print()
+for x in range(3):
+    print("*", end=" ")
+
+#0521
+for y in range(3):
+    for X in range(y+1):
+        print("*", end=" ")
+    print()
+
+#0522
+for y in range(3):
+    for X in range(y+3):
+        print("*", end=" ")
+    print()
+
+#0523
+for x in range(3):
+    print(3-x, end=" ")
+
+#0524
+for x in range(3):
+    print(3-x, end=" ")
+print()
+for x in range(4):
+    print(4-x, end=" ")
+print()
+for x in range(5):
+    print(5-x, end=" ")
+print()
+
+#0525
+for y in range(3, 6):
+    for x in range(y):
+        print(y-x, end=" ")
+    print()
+
+#0526
+for y in range(1, 6):
+    for x in range(y):
+        print(y-x, end=" ")
+    print()
+
+#0527
+for x in range(1):
+    print(1-x, end=" ")
+print()
+for x in range(2):
+    print(2-x, end=" ")
+print()
+for x in range(3):
+    print(3-x, end=" ")
+
+#0528
+for y in range(3):
+    for x in range(y+1):
+        print((y+1)-x, end=" ")
+    print()
+
+#0529
 
 #0532
 n = 6
@@ -108,7 +238,7 @@ for r in range(n-1):
     answer = bunshi / bunbo
     print(answer, end= " ")
 
-# 作問
+# 作問1
 以下のコードを実行すると、最後に出力される答えは何になるか？また、cの値はどのように変化しているか？
 ※第5回までの知識を使って、実行しないで考えてみてください。
 a = 3
@@ -121,3 +251,5 @@ c = a
 for x in range(n):
     c = c * (b - a)
     print(c)
+
+# 作問2
